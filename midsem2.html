@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CONTACT PAGE</h1>
+        <div class="profile-icon">
+            <img src="profile-icon.png" alt="Profile Icon">
+        </div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="program">Program:</label>
+            <select id="program" name="program" required>
+                <option value="" disabled selected>Select Program</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Software Engineering">Software Engineering</option>
+                <option value="Business Administration">Business Administration</option>
+                <option value="Electrical Engineering">Electrical Engineering</option>
+            </select>
+
+            <label for="level">Level:</label>
+            <select id="level" name="level" required>
+                <option value="" disabled selected>Select Level</option>
+                <option value="100">Level 100</option>
+                <option value="200">Level 200</option>
+                <option value="300">Level 300</option>
+                <option value="400">Level 400</option>
+            </select>
+
+            <label for="index">Index Number:</label>
+            <input type="text" id="index" name="index" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
